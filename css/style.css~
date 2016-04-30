@@ -1,0 +1,43 @@
+body {
+    line-height: 2;
+}
+.starter-template {
+  text-align: center;
+}
+
+html,body{height:100%;}
+
+.container {
+    height:100%;
+}
+
+
+.section {
+  height: 100vh;
+}
+.inner-section {
+  transform: translateY(10vh);
+
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 60vh;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 60vh;
+
+}
+.carousel-inner > .item > img {
+  position: center;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 60vh;
+}
