@@ -31,7 +31,8 @@ var audioList = [
 	{
 		id: "pharlap",
 		title: "Phar Lap",
-		url: "'https://s3-ap-southeast-2.amazonaws.com/mddn352p2/pharlap.mp3'"
+		url: "'https://s3-ap-southeast-2.amazonaws.com/mddn352p2/pharlap.mp3'",
+		extra:"http://collections.tepapa.govt.nz/topic/1371"
 	}
 
 ];
@@ -47,7 +48,7 @@ $( "h1.exhibit-name" ).text( exhibit.title );
 //Fill Audio
 $( "audio" ).html("<source src="+exhibit.url+"type='audio/mpeg'/>");
 
-
+$("div.more-url").html("<a href="+exhibit.extra+">Learn more...</a>")
 // END FUNCTIONS THAT ARE BEING CALLED
 
 
