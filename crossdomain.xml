@@ -1,0 +1,3 @@
+<cross-domain-policy>
+<site-control permitted-cross-domain-policies="all"/>
+</cross>

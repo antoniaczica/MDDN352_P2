@@ -47,7 +47,6 @@ $( "h1.exhibit-name" ).text( exhibit.title );
 //Fill Audio
 
 
-
 // END FUNCTIONS THAT ARE BEING CALLED
 
 
