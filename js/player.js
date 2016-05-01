@@ -28,12 +28,6 @@ var audioList = [
 		extra:"http://collections.tepapa.govt.nz/object/1153635"
 	},
 	{
-		id: "bluewhale",
-		title: "The Blue Whale Heart",
-		url: "'http://www.w3schools.com/html/horse.mp3'",
-		extra:""
-	},
-	{
 		id: "pharlap",
 		title: "Phar Lap",
 		url: "'https://s3-ap-southeast-2.amazonaws.com/mddn352p2/pharlap.mp3'",
