@@ -41,13 +41,34 @@ var audioList = [
 
 ];
 
+// FUNCTIONS THAT ARE BEING CALLED
 var pageId = getUrlParameter("exhibit");
-console.log(pageId);
+var exhibit = getExhibit(pageId);
+console.log(exhibit);
+
+
+
+// END FUNCTIONS THAT ARE BEING CALLED
+
 
 // Source for following solution
 // http://stackoverflow.com/questions/19491336/get-url-parameter-jquery-or-how-to-get-query-string-values-in-js
 
-var getUrlParameter = function getUrlParameter(sParam) {
+function getExhibit(id) {
+	for (var i = 0; i < audioList.length; i++) {
+		if (audioList[i].id == id){
+			return audioList[i];
+		}
+	}
+	console.log("id is not within audioList, returning default object");
+	return {
+		id: "brokenurl",
+		title: "Broken URL",
+		url: ""
+	}
+}
+
+function getUrlParameter(sParam) {
     var sPageURL = decodeURIComponent(window.location.search.substring(1)),
         sURLVariables = sPageURL.split('&'),
         sParameterName,
