@@ -18,8 +18,8 @@ var audioList = [
 	{
 		id: "kupeanchor",
 		title: "Kupe’s Anchor",
-		url: "'http://www.w3schools.com/html/horse.mp3'",
-		extra:"https://s3-ap-southeast-2.amazonaws.com/mddn352p2/kupe.mp3"
+		url: "'https://s3-ap-southeast-2.amazonaws.com/mddn352p2/kupe.mp3'",
+		extra:"http://collections.tepapa.govt.nz/object/264911"
 	},
 	{
 		id: "kuri",
