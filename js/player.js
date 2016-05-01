@@ -6,13 +6,13 @@ var audioList = [
 	{
 		id: "huria1",
 		title: "The Portrait of Huria Matenga",
-		url: "''",
+		url: "'https://s3-ap-southeast-2.amazonaws.com/mddn352p2/huria1.mp3'",
 		extra:"http://www.teara.govt.nz/en/biographies/1m24/matenga-huria"
 	},
 	{
 		id: "huria2",
 		title: "The Cloak of Huria Matenga",
-		url: "''",
+		url: "'https://s3-ap-southeast-2.amazonaws.com/mddn352p2/huria2.mp3'",
 		extra:"http://collections.tepapa.govt.nz/object/649858"
 	},
 	{
