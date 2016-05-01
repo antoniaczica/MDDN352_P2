@@ -6,32 +6,32 @@ var audioList = [
 	{
 		id: "huria1",
 		title: "The Portrait of Huria Matenga",
-		url: ""
+		url: "'http://www.w3schools.com/html/horse.mp3'"
 	},
 	{
 		id: "huria2",
 		title: "The Cloak of Huria Matenga",
-		url: ""
+		url: "'http://www.w3schools.com/html/horse.mp3'"
 	},
 	{
 		id: "kupeanchor",
 		title: "Kupe’s Anchor",
-		url: ""
+		url: "'http://www.w3schools.com/html/horse.mp3'"
 	},
 	{
 		id: "kuri",
 		title: "The Kuri",
-		url: ""
+		url: "'http://www.w3schools.com/html/horse.mp3'"
 	},
 	{
 		id: "bluewhale",
 		title: "The Blue Whale Heart",
-		url: ""
+		url: "'http://www.w3schools.com/html/horse.mp3'"
 	},
 	{
 		id: "pharlap",
 		title: "Phar Lap",
-		url: ""
+		url: "'https://s3-ap-southeast-2.amazonaws.com/mddn352p2/pharlap.mp3'"
 	}
 
 ];
@@ -45,6 +45,7 @@ console.log(exhibit);
 $( "h1.exhibit-name" ).text( exhibit.title );
 
 //Fill Audio
+$( "audio" ).html("<source src="+exhibit.url+"type='audio/mpeg'/>");
 
 
 // END FUNCTIONS THAT ARE BEING CALLED
