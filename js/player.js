@@ -46,6 +46,11 @@ var pageId = getUrlParameter("exhibit");
 var exhibit = getExhibit(pageId);
 console.log(exhibit);
 
+// Fill Header
+$( "h1.exhibit-name" ).text( exhibit.title );
+
+//Fill Audio
+
 
 
 // END FUNCTIONS THAT ARE BEING CALLED
