@@ -4,11 +4,6 @@
 // List relates the url provided name with the title and soundcloud url
 var audioList = [
 	{
-		id: "shitsfucked",
-		title: "Everybody Knows Shit's Fucked",
-		url: ""
-	},
-	{
 		id: "huria1",
 		title: "The Portrait of Huria Matenga",
 		url: ""
