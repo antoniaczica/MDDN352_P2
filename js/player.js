@@ -6,32 +6,38 @@ var audioList = [
 	{
 		id: "huria1",
 		title: "The Portrait of Huria Matenga",
-		url: "'http://www.w3schools.com/html/horse.mp3'"
+		url: "'http://www.w3schools.com/html/horse.mp3'",
+		extra:""
 	},
 	{
 		id: "huria2",
 		title: "The Cloak of Huria Matenga",
-		url: "'http://www.w3schools.com/html/horse.mp3'"
+		url: "'http://www.w3schools.com/html/horse.mp3'",
+		extra:""
 	},
 	{
 		id: "kupeanchor",
 		title: "Kupe’s Anchor",
-		url: "'http://www.w3schools.com/html/horse.mp3'"
+		url: "'http://www.w3schools.com/html/horse.mp3'",
+		extra:""
 	},
 	{
 		id: "kuri",
 		title: "The Kuri",
-		url: "'http://www.w3schools.com/html/horse.mp3'"
+		url: "'https://s3-ap-southeast-2.amazonaws.com/mddn352p2/kuri.mp3'",
+		extra:"http://collections.tepapa.govt.nz/object/1153635"
 	},
 	{
 		id: "bluewhale",
 		title: "The Blue Whale Heart",
-		url: "'http://www.w3schools.com/html/horse.mp3'"
+		url: "'http://www.w3schools.com/html/horse.mp3'",
+		extra:""
 	},
 	{
 		id: "pharlap",
 		title: "Phar Lap",
-		url: "'https://s3-ap-southeast-2.amazonaws.com/mddn352p2/pharlap.mp3'"
+		url: "'https://s3-ap-southeast-2.amazonaws.com/mddn352p2/pharlap.mp3'",
+		extra:"http://collections.tepapa.govt.nz/topic/1371"
 	}
 
 ];
@@ -47,7 +53,7 @@ $( "h1.exhibit-name" ).text( exhibit.title );
 //Fill Audio
 $( "audio" ).html("<source src="+exhibit.url+"type='audio/mpeg'/>");
 
-
+$("div.more-url").html("<a href="+exhibit.extra+">Learn more...</a>")
 // END FUNCTIONS THAT ARE BEING CALLED
 
 
